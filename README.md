@@ -12,25 +12,25 @@ Web Services (AWS). You can read more about it from its
 You can install the package globally if you want to run the database server
 from command line.
 
-> `$ npm install -g aws-dynamodb`  
+> `$ npm install -g aws-db`  
 
 or
 
-> `$ yarn global add aws-dynamodb`
+> `$ yarn global add aws-db`
 
-Once the `aws-dynamodb` package is installed. You should be able to start the
+Once the `aws-db` package is installed. You should be able to start the
 dynamodb database server from command line.
 
-> `$ aws-dynamodb`
+> `$ aws-db`
 
 ### Usage
 By default DynamoDB is ran on port 8000, and an in-memory database is used.
 You can pass command line parameters to change the port, and use a persistent
 storage for database.
-> `$ aws-dynamodb 8080`  
+> `$ aws-db 8080`  
   Runs dynamodb in port 8080
 
-> `$ aws-dynamodb 8080 data`  
+> `$ aws-db 8080 data`  
   Runs dynamodb in port 8080 with persistent storage in a folder named data
   in the current directory.
 
@@ -40,17 +40,17 @@ to use dynamodb with your test frameworks like [mocha](https://mochajs.org/), yo
 could install the dynamodb database in your package as a development dependency
 and run the database server programmatically from within your test framework.
 
-> `$ npm install --save-dev aws-dynamodb`
+> `$ npm install --save-dev aws-db`
 
 or
 
-> `$ yarn add --dev aws-dynamodb`
+> `$ yarn add --dev aws-db`
 
 Once installed on your package, you could start the dynamodb server by importing
 the library
 ```javascript
 // Your test file
-const dynamoDB = require('aws-dynamodb');
+const dynamoDB = require('aws-db');
 
 // Start the dynamoDB server
 const shutdownDynamoDB = dynamoDB();
