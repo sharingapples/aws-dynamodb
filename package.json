@@ -1,9 +1,9 @@
 {
   "name": "aws-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Amazon DynamoDB local setup",
   "main": "index.js",
-  "bin": "run.js",
+  "bin": "./run.js",
   "repository": "sharingapples/aws-dynamodb",
   "author": "Ranjan Shrestha",
   "license": "MIT"

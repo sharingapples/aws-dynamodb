@@ -14,10 +14,6 @@ from command line.
 
 > `$ npm install -g aws-db`  
 
-or
-
-> `$ yarn global add aws-db`
-
 Once the `aws-db` package is installed. You should be able to start the
 dynamodb database server from command line.
 
