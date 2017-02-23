@@ -1,0 +1,10 @@
+{
+  "name": "aws-dynamodb",
+  "version": "1.0.0",
+  "description": "Amazon DynamoDB local setup",
+  "main": "index.js",
+  "bin": "run.js",
+  "repository": {},
+  "author": "Ranjan Shrestha",
+  "license": "MIT"
+}
