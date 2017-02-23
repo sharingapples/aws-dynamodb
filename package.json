@@ -4,7 +4,7 @@
   "description": "Amazon DynamoDB local setup",
   "main": "index.js",
   "bin": "run.js",
-  "repository": {},
+  "repository": "sharingapples/aws-dynamodb",
   "author": "Ranjan Shrestha",
   "license": "MIT"
 }
