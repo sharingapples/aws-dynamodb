@@ -14,9 +14,6 @@ if (port === '-h' || port === '--help') {
   console.log('  dataPath:    The location where the database files are stored');
   console.log('               If not provided, in-memory database is used');
 } else {
-  //Run dynamoDB
+  // Run dynamoDB
   dynamoDB(port, dataPath);
 }
-
-
-
