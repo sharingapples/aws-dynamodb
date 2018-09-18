@@ -100,7 +100,7 @@ function download() {
     process.stdout.write('Extracting binaries.\n');
     targz.decompress({
       src: targetFile,
-      dest: '.dynamodb',
+      dest: path.resolve(__dirname, '.dynamodb'),
     }, (err) => {
       if (err) {
         return reject(err);
