@@ -10,7 +10,7 @@ const jarFile = path.resolve(root, 'DynamoDBLocal.jar');
 module.exports = (port = 8000, dataPath, delayTransientStatuses) => {
   // Make sure the jar files have been downloaded
   if (!fs.existsSync(jarFile)) {
-    throw new Error('AWS DynamoDB local server is not available.');
+    throw new Error(`AWS DynamoDB executable is not available at ${jarFile}`);
   }
 
   const args = [
