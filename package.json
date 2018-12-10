@@ -3,12 +3,12 @@
   "version": "1.0.4",
   "description": "Amazon DynamoDB local setup",
   "main": "index.js",
-  "bin": "./run.js",
+  "bin": "node run.js",
   "repository": "sharingapples/aws-dynamodb",
   "author": "Ranjan Shrestha",
   "license": "MIT",
   "scripts": {
-    "postinstall": "./setup.js"
+    "postinstall": "node setup.js"
   },
   "dependencies": {
     "sha.js": "^2.4.11",
