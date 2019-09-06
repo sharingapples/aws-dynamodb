@@ -1,6 +1,6 @@
 {
   "name": "aws-db",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Amazon DynamoDB local setup",
   "main": "index.js",
   "bin": {
